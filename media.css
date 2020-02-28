@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+  .banner__list {
+    overflow-x: auto;
+  }
+
+  .banner__brends {
+    width: 900px;
+    margin: 0;
+
+  }
+
+  .experts__wrap {
+    padding: 40px 40px !important;
+  }
+
+  .experts__info {
+    flex-direction: column;
+  }
+
+  .experts__blocks {
+    max-width: 49% !important;
+  }
+
+  .experts__data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .experts__name {
+    margin-left: 20px;
+  }
+
+  .experts__items {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .experts__wrap {
+    padding: 40px 20px !important;
+  }
